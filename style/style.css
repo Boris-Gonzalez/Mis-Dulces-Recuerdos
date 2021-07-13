@@ -1,0 +1,50 @@
+/* header */
+#header img{
+    width: 150px;
+}
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+.text-productos{
+    color:#ff1783 !important ;
+}
+.btn-productos{
+    background-color:#d64f8e !important ;
+    color: white !important;
+}
+.btn-productos:hover{
+    background-color:#ee4091 !important;
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+#carousel .overlay .col-md-6{
+    text-align: end;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+/* fin header */
+
+/* Footer */
+#footer{
+    background: linear-gradient(90deg,#f8acd0,#f866aa 25%,#ff1783);
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+/* Fin Footer */
