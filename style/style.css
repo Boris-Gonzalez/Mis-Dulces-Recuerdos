@@ -37,6 +37,10 @@
 #carousel .overlay .row{
     height: 100%;
 }
+#productos_destacados img{
+    height: 348px;
+    object-fit: cover;
+}
 /* fin header */
 
 /* Footer */
