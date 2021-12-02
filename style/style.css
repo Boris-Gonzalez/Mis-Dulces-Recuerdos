@@ -27,6 +27,7 @@ body{
 }
 #carousel{
     position: relative;
+    height: 100%;
 }
 #carousel .overlay{
     position: absolute;
