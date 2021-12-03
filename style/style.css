@@ -87,3 +87,10 @@ body{
     text-decoration: none;
 }
 /* Fin Footer */
+
+.texto-tarjeta{
+    color: #ee4091;
+}
+.texto-tarjeta p{
+    color: black;
+}
